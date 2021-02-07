@@ -137,7 +137,10 @@
         API przyjmuje dane wysłane tylko jako $_POST<br>
         Podstawą jest plik "api-router.php", który kieruje ruch poprzez zmienną "action".<br><br>
 
-        Dane połączeniowe MySQL znajdują się w pliku "api-connect.php".<br><br>
+        Struktura bazy danych znajduje się w pliku "baza.sql".<br>
+        Dane połączeniowe MySQL znajdują się w pliku "api-connect.php".<br>
+        Dane do bramki SMS (token, numer telefonu) znajdują się w "api-sms.php".<br>
+        <br>
         
         <strong>'users-list': $Api->usersList();</strong><br>
         Nie wymaga argumentów. Wyświetla listę użytkowników.<br><br>
