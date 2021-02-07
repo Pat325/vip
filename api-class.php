@@ -135,7 +135,7 @@ class Api {
                 $stmt = $this->pdo->prepare($sql);
                 $stmt->execute();
                 
-                $ch = curl_init('http://strona-internetowa.pl/vip/api-sms.php');
+                $ch = curl_init('api-sms.php');
                 curl_setopt($ch, CURLOPT_HEADER, 0);
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
                 curl_setopt($ch, CURLOPT_POST, 1);
